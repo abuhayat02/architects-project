@@ -79,8 +79,15 @@
 }
 
 @media screen and (max-width:576px) {
-    .disply-flex{
-        display: flex;
+    .navbar{
+        /* display: flex; */
         flex-direction: column;
+    }
+    .nav-links , .navbar-title{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
 }
